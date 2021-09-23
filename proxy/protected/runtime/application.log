@@ -1,0 +1,1183 @@
+2021/09/20 18:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 18:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 18:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 18:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 19:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 19:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 19:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 19:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 20:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 20:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 20:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 20:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 21:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 21:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 21:20:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 21:20:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 21:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 21:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 21:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 21:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 22:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 22:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 22:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 22:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 22:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 22:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 23:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 23:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 23:00:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 23:00:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/20 23:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/20 23:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 00:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 00:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunEmpCommand.php(29): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunEmpCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 00:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 00:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 00:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 00:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 01:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 01:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 01:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 01:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 01:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 01:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 02:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 02:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 02:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 02:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 03:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 03:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 03:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 03:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 03:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 03:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 04:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 04:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 05:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 05:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RundmarkCommand.php(23): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RundmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 05:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 05:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 05:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 05:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunfortCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunfortCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 05:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 05:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 06:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 06:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RundmarkCommand.php(23): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RundmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 06:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 06:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunEmpCommand.php(29): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunEmpCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 06:00:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 06:00:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 06:20:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 06:20:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunfortCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunfortCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 06:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 06:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/DeldmarkCommand.php(9): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): DeldmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 06:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 06:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunfortCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunfortCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 06:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 06:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 07:00:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 07:00:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RundmarkCommand.php(23): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RundmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 07:00:03 [error] [exception.CDbException] SQLSTATE[08004] [1040] Too many connections
+2021/09/21 07:00:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 07:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 07:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/DelsmarkCommand.php(9): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): DelsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 07:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 07:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunEmpCommand.php(29): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunEmpCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 07:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 07:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 08:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 08:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunfortCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunfortCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 08:00:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 08:00:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 08:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 08:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunEmpCommand.php(29): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunEmpCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 08:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 08:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RundmarkCommand.php(23): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RundmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 08:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 08:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 09:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 09:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/DelsmarkCommand.php(9): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): DelsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 09:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 09:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunEmpCommand.php(29): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunEmpCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 09:00:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 09:00:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 09:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 09:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunEmpCommand.php(29): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunEmpCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 09:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 09:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 10:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 10:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 10:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 10:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 12:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 12:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 12:00:04 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 12:00:04 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 13:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 13:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RundmarkCommand.php(23): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RundmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 13:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 13:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 14:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 14:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunEmpCommand.php(29): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunEmpCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 14:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 14:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 14:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 14:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 14:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 14:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 14:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 14:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 15:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 15:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 16:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 16:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 16:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 16:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 17:00:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 17:00:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 17:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 17:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 17:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 17:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 18:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 18:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 19:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 19:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 19:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 19:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 20:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 20:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 21:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 21:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 21:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 21:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 22:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 22:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 22:00:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 22:00:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 22:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 22:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 22:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 22:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 23:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 23:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/21 23:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/21 23:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/22 00:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/22 00:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/22 01:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/22 01:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/22 01:40:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/22 01:40:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/22 02:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/22 02:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/22 02:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/22 02:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/22 03:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/22 03:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/22 04:00:02 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/22 04:00:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunIsmCommand.php(22): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunIsmCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
+2021/09/22 07:40:03 [error] [exception.CDbException] SQLSTATE[HY000] [1040] Too many connections
+2021/09/22 07:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php:354
+Stack trace:
+#0 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(297): CDbConnection->open()
+#1 /var/www/htdocs/gw/proxy/protected/yii/framework/db/CDbConnection.php(275): CDbConnection->setActive(true)
+#2 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(372): CDbConnection->init()
+#3 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CModule.php(86): CModule->getComponent('sms')
+#4 /var/www/htdocs/gw/proxy/protected/commands/RunsmarkCommand.php(25): CModule->__get('sms')
+#5 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleCommandRunner.php(63): RunsmarkCommand->run(Array)
+#6 /var/www/htdocs/gw/proxy/protected/yii/framework/console/CConsoleApplication.php(88): CConsoleCommandRunner->run(Array)
+#7 /var/www/htdocs/gw/proxy/protected/yii/framework/base/CApplication.php(155): CConsoleApplication->processRequest()
+#8 /var/www/htdocs/gw/proxy/console.php(13): CApplication->run()
+#9 {main}
